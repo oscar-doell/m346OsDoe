@@ -16,6 +16,7 @@ packages:
   - php
   - libapache2-mod-php
   - adminer
+  - php-mysqli
 runcmd:
   - sudo a2enconf adminer
   - sudo systemctl restart apache2
