@@ -16,7 +16,6 @@ packages:
   - php
   - libapache2-mod-php
   - adminer
-  - php-mysqli
 runcmd:
   - sudo a2enconf adminer
   - sudo systemctl restart apache2
@@ -25,7 +24,7 @@ write_files:
     content: |
       <?php
          //database
-         $servername = "52.90.213.49";
+         $servername = "52.72.6.61";
          $username = "admin";
          $password = "password";
          $dbname = "mysql";
